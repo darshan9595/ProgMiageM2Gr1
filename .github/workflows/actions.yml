@@ -12,7 +12,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
-      - name: Build and test
+      - name: Build 
         run: |
           export SHELL=/bin/bash
           ./gradlew build
